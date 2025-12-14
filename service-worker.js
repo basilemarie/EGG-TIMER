@@ -4,7 +4,7 @@ const FILES_TO_CACHE = [
   "./",
   "./index.html",
   "./egg_app.css",
-  "./egg_ap.js",
+  "./egg_app.js",
   "./manifest.json"
 ];
 
