@@ -3,8 +3,8 @@ const CACHE_NAME = "egg-timer-v1";
 const FILES_TO_CACHE = [
   "./",
   "./index.html",
-  "./style.css",
-  "./script.js",
+  "./egg_app.css",
+  "./egg_ap.js",
   "./manifest.json"
 ];
 
