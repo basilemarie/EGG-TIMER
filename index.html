@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Egg Time App</title>
+        <link href="./egg_app.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="app">
+            <div class="front_page screen active" >
+                <div class="h1_title">
+                    <h1 class="h1_top">CHOOSE YOUR</h1>
+                </div>
+                <div class="head_title">
+                    <h1 class="side_h1">EGG</h1>
+                    <img class="dancing_egg" src="source/egg_gif.gif" alt="dancing-egg"/>
+                    <h1 class="side_h1">TIMER!</h1>
+                </div>
+                <div class="btn_container">
+                    <button class="start_btn">START</button>
+                </div>
+            </div>
+            <div class="egg_container screen">
+                <div class="exit_1"><img class ="img_exit" src="source/close_img.png"/></div>
+                <div class="egg_choose">
+                    <img src="source/oeuf_coque.png" class="egg coque"/>
+                </div>
+                <div class="egg_choose">
+                    <img src="source/oeuf_plat.png" class="egg plat"/>
+                </div>
+                <div class="egg_choose">
+                    <img src="source/oeuf_dur.png" class="egg dur"/>
+                </div>
+                <div class="egg_choose">
+                    <img src="source/oeuf_molet.png" class="egg molet"/>
+                </div>
+            </div>
+            <div class="timer_page screen">
+                <img class="egg_timer" src="source/gif_timer.gif">
+                <div class="exit_2"><img class ="img_exit" src="source/close_img.png"/></div>
+                <h1 id="timer">00:00</h1>
+                <button class="timer_triger">CLICK</button>
+            </div>
+        </div>
+    </body>
+    <script src="egg_app.js"></script>
+</html>
