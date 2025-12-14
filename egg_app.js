@@ -1,3 +1,9 @@
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./service-worker.js")
+    .then(() => console.log("Service Worker enregistré"))
+    .catch(err => console.error("SW error", err));
+}
+
 const open_btn = document.querySelector(".start_btn");
 const exit_btn_1 = document.querySelector(".exit_1");
 const exit_btn_2 = document.querySelector(".exit_2")
